@@ -74,5 +74,6 @@ Build android app that run as a gRPC server. Now only gRPC C++ version can run o
   cd examples/android/helloworld/
   ./gradlew assembleDebug
   ```
-  # The app-x86-debug.apk and app-armeabi-v7a-debug.apk build success
+  ### The app-x86-debug.apk and app-armeabi-v7a-debug.apk build success
+  
    ##  3. To test the apk on Android machine
