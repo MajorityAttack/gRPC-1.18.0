@@ -14,7 +14,7 @@ Build android app that run as a gRPC server. Now only gRPC C++ version can run o
  $ [sudo] apt-get install libgflags-dev libgtest-dev
  $ [sudo] apt-get install clang libc++-dev
 ```
-### Clone the repository v1.18.0 (01/24/2019)
+ ### Clone the repository v1.18.0 (01/24/2019)
 ```sh
  $ git clone -b $(curl -L https://grpc.io/release) https://github.com/grpc/grpc
  $ cd grpc
@@ -36,16 +36,16 @@ Build android app that run as a gRPC server. Now only gRPC C++ version can run o
   ```
  ### Build gRPC
  ```sh
- cd grpc/
- make
+ $ cd grpc/
+ $ make
  ```
  ##  2. Build gRPC Server as Android app
  https://github.com/grpc/grpc/tree/master/examples/android/helloworld
  ### Install SDK, NDK, CMAKE from SDK manager in Android studio
  ### Build android example
  ```sh
- cd examples/android/helloworld/
- ./gradlew assembleDebug
+ $ cd examples/android/helloworld/
+ $ ./gradlew assembleDebug
  ```
  ### To build x86 and armeabi-v7a app, adapt build.gradle file in app directory 
  ```sh
@@ -71,9 +71,8 @@ Build android app that run as a gRPC server. Now only gRPC C++ version can run o
     }
   ```
   ```sh
-  cd examples/android/helloworld/
-  ./gradlew assembleDebug
+  $ cd examples/android/helloworld/
+  $ ./gradlew assembleDebug
   ```
   ### The app-x86-debug.apk and app-armeabi-v7a-debug.apk build success
-  
-   ##  3. To test the apk on Android machine
+  ##  3. To test the apk on Android machine
