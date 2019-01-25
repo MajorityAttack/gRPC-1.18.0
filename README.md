@@ -101,3 +101,6 @@ Build android app that run as a gRPC server. Now only gRPC C++ version can run o
   ### The Hello Android will be showed in response section.
   ### WoW!!!
   
+  ![screenshot_1548435793](https://user-images.githubusercontent.com/45811181/51761669-a7ca0380-2108-11e9-9b11-ea37f31984e6.png)
+
+  
