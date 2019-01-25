@@ -86,21 +86,9 @@ Build android app that run as a gRPC server. Now only gRPC C++ version can run o
   $ adb install app-x86-debug.apk
   ```
   ### Test gRPC server in Android
-  -------------------------------
-  gRPC client configuration
-  0.0.0.0        55100
-  Android
-  
-       SEND GRPC REQUEST
- 
-  gRPC server configuration
-  55100
-  
-       Start GRPC SERVER
-  ------------------------------
   ### The Hello Android will be showed in response section.
   ### WoW!!!
   
-  ![screenshot_1548435793](https://user-images.githubusercontent.com/45811181/51761669-a7ca0380-2108-11e9-9b11-ea37f31984e6.png)
+  ![screenshot_1548435793](https://user-images.githubusercontent.com/45811181/51761669-a7ca0380-2108-11e9-9b11-ea37f31984e6.png = 100*200)
 
   
