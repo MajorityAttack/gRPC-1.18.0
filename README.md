@@ -78,3 +78,26 @@ Build android app that run as a gRPC server. Now only gRPC C++ version can run o
   ```
   ### The app-x86-debug.apk and app-armeabi-v7a-debug.apk build success
   ##  3. To test the apk on Android machine
+  ### Create Android Virtual Device (Nexus 6 API 27) by Android Studio
+  ### Find and start an emulator
+  ```sh
+  $ emulator -list-avds
+  $ emulator -avd Nexus_6_API_27
+  $ adb install app-x86-debug.apk
+  ```
+  ### Test gRPC server in Android
+  -------------------------------
+  gRPC client configuration
+  0.0.0.0        55100
+  Android
+  
+       SEND GRPC REQUEST
+ 
+  gRPC server configuration
+  55100
+  
+       Start GRPC SERVER
+  ------------------------------
+  ### The Hello Android will be showed in response section.
+  ### WoW!!!
+  
