@@ -87,8 +87,13 @@ Build android app that run as a gRPC server. Now only gRPC C++ version can run o
   ```
   ### Test gRPC server in Android
   ### The Hello Android will be showed in response section.
+  <img src="https://user-images.githubusercontent.com/45811181/51761669-a7ca0380-2108-11e9-9b11-ea37f31984e6.png" width="300">
   ### WoW!!!
   
-  ![screenshot_1548435793](https://user-images.githubusercontent.com/45811181/51761669-a7ca0380-2108-11e9-9b11-ea37f31984e6.png = 100*200)
+  ##  4. Error occure when build Android app
+  ### Error occurred while communicating with CMake server.
+  Android Studio have two Cmake version (3.10 and 3.6). This error occure when 3.10 is choosen. Please remove the 3.10 and install 3.6 from SDK manager. More detail discription: https://stackoverflow.com/questions/47393862/errorerror-occurred-while-communicating-with-cmake-server?rq=1
+  ### Error occurred while communicating with CMake server.
+  
 
   
