@@ -91,9 +91,16 @@ Build android app that run as a gRPC server. Now only gRPC C++ version can run o
   ### WoW!!!
   
   ##  4. Error occure when build Android app
-  ### Error occurred while communicating with CMake server.
-  Android Studio have two Cmake version (3.10 and 3.6). This error occure when 3.10 is choosen. Please remove the 3.10 and install 3.6 from SDK manager. More detail discription: https://stackoverflow.com/questions/47393862/errorerror-occurred-while-communicating-with-cmake-server?rq=1
-  ### Error occurred while communicating with CMake server.
+  ### 1 Error occurred while communicating with CMake server.
+  Android Studio 3.3 have two Cmake version (3.10 and 3.6). This error occure when 3.10 is choosen. Please remove the 3.10 and install 3.6 from SDK manager. More detail discription: https://stackoverflow.com/questions/47393862/errorerror-occurred-while-communicating-with-cmake-server?rq=1
+  ### 2 No toolchains found in the NDK toolchains folder for ABI with prefix: llvm
+  NDK 19.0 in Android Studio 3.3 is no support MIPS CPU architecture, So there is no mips64el-linux-android and mipsel-linux-android directory in Android/sdk/ndk-bundle/toolchains directory. A workround is to use symbolic link:
+  ```sh
+  $ cd  Android/sdk/ndk-bundle/toolchains
+  $ ln -s aarch64-linux-android-4.9 mips64el-linux-android
+  $ ln -s arm-linux-androideabi-4.9 mipsel-linux-android
+  ```
+  More detail discription:https://stackoverflow.com/questions/35128229/error-no-toolchains-found-in-the-ndk-toolchains-folder-for-abi-with-prefix-llv
   
 
   
