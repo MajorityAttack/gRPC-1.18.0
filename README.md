@@ -38,6 +38,7 @@ Build android app that run as a gRPC server. Now only gRPC C++ version can run o
  ```sh
  $ cd grpc/
  $ make
+ $ sudo make install
  ```
  ##  2. Build gRPC Server as Android app
  https://github.com/grpc/grpc/tree/master/examples/android/helloworld
