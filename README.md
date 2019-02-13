@@ -2,6 +2,7 @@
 Build android app that run as a gRPC server. Now only gRPC C++ version can run on Android.
 
 ##  1. Build gRPC C++ version on ubuntu 18.04
+Link: https://github.com/grpc/grpc/blob/master/BUILDING.md
 ### Prerequired
 ```sh
  $ [sudo] apt update
@@ -22,6 +23,7 @@ Build android app that run as a gRPC server. Now only gRPC C++ version can run o
  $ git submodule update --init --recursive
  ```
  ### Build protobuf
+ Link: https://github.com/protocolbuffers/protobuf/blob/master/src/README.md
  ```sh
  $ [sudo] apt-get install autoconf automake libtool curl make g++ unzip
  $ cd grpc/third_party/protobuf
